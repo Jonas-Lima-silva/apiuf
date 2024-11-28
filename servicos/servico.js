@@ -1,4 +1,5 @@
 import colecaoUf from '../dados/dados.js';
+import colecaoUf from '../servicos/servico.js';
 
 export const buscarUf = () => {
     return colecaoUf;
