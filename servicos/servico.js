@@ -1,13 +1,13 @@
-import colecacoUf from '../dados/dados.js';
+import colecaoUf from '../dados/dados.js';
 
 export const buscarUf = () => {
-    return colecacoUf;
+    return colecaoUf;
 }
 
 export const buscarUfsPorNome = (nomeuf)=>{
-    return colecacoUf.filter(uf => uf.nome.tolowerCase().includes(nomeuf.tolowerCase()));
+    return colecaoUf.filter(uf => uf.nome.tolowerCase().includes(nomeuf.tolowerCase()));
 };
 export const buscarUfporid =(id)=>{
     const idUf = parent(id);
-    return colecacoUf.find(uf => uf.id === idUf);
+    return colecaoUf.find(uf => uf.id === idUf);
 }
