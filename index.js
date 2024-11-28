@@ -1,5 +1,5 @@
 
-import colecaoUf  from './dados/dados.js';
+import colecaoUf  from '../dados/dados.js';
 
 const app = express();
 
