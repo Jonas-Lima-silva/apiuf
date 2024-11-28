@@ -1,4 +1,4 @@
-import express  from'express';
+
 import colecaoUf  from './dados/dados.js';
 
 const app = express();
